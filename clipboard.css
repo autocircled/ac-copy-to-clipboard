@@ -1,0 +1,24 @@
+.ac-copy-tooltip {
+    background-color: #0167b8;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+.ac-copy-tooltip.show {
+    opacity: 1;
+}
+.ac-copy-to-clipboard {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+}
